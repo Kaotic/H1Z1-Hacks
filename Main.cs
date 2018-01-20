@@ -31,8 +31,8 @@ namespace CCleanerBiosUpdater
         private delegate void AsyncWrite(String Text);
         private delegate void AsyncClear();
         public static Boolean ProgramRunning = false;
-        private static Int64 CCleaner_OffGame = 0x14417CFA0;
-        private Int64 CCleaner_OffGraphics = 0x14417DD38;
+        private static Int64 CCleaner_OffGame = 0x14417DF90;
+        private Int64 CCleaner_OffGraphics = 0x14417ED28;
         private static IntPtr GameHandle;
         private Structures.CCleaner_Margin GameMargin;
         private static CCleanerBios CCleanerBiosReader = new CCleanerBios();
